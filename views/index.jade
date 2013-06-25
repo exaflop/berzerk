@@ -1,0 +1,34 @@
+!!! 5
+html
+    head
+        title= "New People"
+        link(
+            rel="stylesheet",
+            href="/stylesheets/style.css")
+    body
+        h1= "New People"
+        p= "New People"
+        form(
+            action="/auth/classic-login",
+            method="post",
+            class="signInForm")
+            p
+                label(for="signInEmail") Email
+                input(
+                    id="signInEmail",
+                    name="email",
+                    placeholder="Enter email address...",
+                    type="text")
+            p
+
+                label(for="signInPassword") Password
+                input(
+                    id="signInPassword",
+                    name="pass",
+                    placeholder="Enter password...",
+                    type="password")
+            button(type="submit") se connecter
+        a.forgotPass(href="#") Forgot password?
+
+        if (locals.errors)
+            p= errors

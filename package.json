@@ -1,0 +1,15 @@
+{
+    "name": "berzerk",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "express": "3.0.3",
+        "jade": "*",
+        "mongoose": "2.4.10",
+        "stylus": "*",
+        "jshashes": "0.1.3b"
+    }
+}

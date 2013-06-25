@@ -1,0 +1,4 @@
+{
+  "mongodb_url": "mongodb://berzerk:vqbgnpas@ds045017.mongolab.com:45017/kenny",
+  "logger": { "format": "dev" }
+}
